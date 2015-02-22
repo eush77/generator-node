@@ -3,6 +3,8 @@
 var Generator = require('yeoman-generator').Base,
     _ = Generator.prototype._;
 
+var path = require('path');
+
 
 var validate = {
   name: function (name) {
@@ -43,6 +45,7 @@ module.exports = Generator.extend({
         type: 'input',
         name: 'name',
         message: 'Project name',
+        default: path.basename(this.destinationRoot()),
         validate: validate.name
       },
       {
