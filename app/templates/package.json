@@ -1,16 +1,16 @@
 {
-  "name": "NAME",
+  "name": "<%= name %>",
   "version": "0.0.0",
-  "description": "DESCRIPTION",
+  "description": "<%= description %>",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/eush77/NAME",
+  "homepage": "https://github.com/eush77/<%= name %>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eush77/NAME"
+    "url": "https://github.com/eush77/<%= name %>"
   },
   "bugs": {
-    "url": "https://github.com/eush77/NAME/issues"
+    "url": "https://github.com/eush77/<%= name %>/issues"
   },
   "keywords": [],
   "dependencies": {},

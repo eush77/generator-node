@@ -40,6 +40,11 @@ module.exports = Generator.extend({
       },
       {
         type: 'input',
+        name: 'description',
+        message: 'Description'
+      },
+      {
+        type: 'input',
         name: 'year',
         message: 'Created in',
         default: new Date().getFullYear(),
