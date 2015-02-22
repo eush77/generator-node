@@ -45,7 +45,7 @@ module.exports = Generator.extend({
         type: 'input',
         name: 'name',
         message: 'Project name',
-        default: path.basename(this.destinationRoot()),
+        default: _.slugify(path.basename(this.destinationRoot())),
         validate: validate.name
       },
       {
