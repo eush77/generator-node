@@ -8,7 +8,7 @@ This is my custom generator for Node projects.
 yo node
 ```
 
-This will ask questions and create `.package.json`, `README.md`, `LICENSE`, `.gitignore`, and `.travis.yml` (if requested).
+This will ask questions and create `package.json`, `README.md`, `LICENSE`, `.gitignore`, and `.travis.yml` (if requested).
 
 ```
 yo node:bare
