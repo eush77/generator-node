@@ -2,6 +2,12 @@
 
 This is my custom Node projects generator.
 
+## Usage
+
+```
+yo node
+```
+
 ## Install
 
 ```
