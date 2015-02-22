@@ -1,0 +1,26 @@
+{
+  "name": "generator-node",
+  "version": "0.0.0",
+  "description": "My custom Node generator",
+  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "preferGlobal": true,
+  "homepage": "https://github.com/eush77/generator-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eush77/generator-node"
+  },
+  "bugs": {
+    "url": "https://github.com/eush77/generator-node/issues"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "eush77",
+    "node"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9"
+  },
+  "devDependencies": {}
+}
