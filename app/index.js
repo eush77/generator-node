@@ -67,6 +67,12 @@ module.exports = Generator.extend({
 
   templating: function () {
     this.expand('*', { cwd: this.sourceRoot() })
+      .filter(function (file) {
+        if (file == '_travis.yml') {
+          return this.options.travis;
+        }
+        return true;
+      }.bind(this))
       .forEach(function (file) {
         this.template(file, destination(file), this.options);
       }.bind(this));
