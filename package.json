@@ -22,5 +22,8 @@
   "dependencies": {
     "yeoman-generator": "^0.18.9"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "peerDependencies": {
+    "yo": "^1.4.5"
+  }
 }
