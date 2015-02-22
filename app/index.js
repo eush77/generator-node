@@ -62,6 +62,21 @@ module.exports = Generator.extend({
         message: 'Use Travis CI',
         default: false
       },
+      {
+        type: 'confirm',
+        name: 'test',
+        message: 'Plan some tests',
+        default: true
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'Test command',
+        default: 'tape test/*.js',
+        when: function (options) {
+          return options.test;
+        }
+      },
     ], function (options) {
       this.options = options;
       return done();
