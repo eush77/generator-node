@@ -15,7 +15,13 @@
   "bugs": {
     "url": "https://github.com/eush77/<%= name %>/issues"
   },
-  "keywords": [],
+  "keywords": [<%=
+   keywords
+     .map(function (kw) {
+       return '\n    "' + kw + '"';
+     })
+     .join(',') %>
+  ],
   "dependencies": {},
   "devDependencies": {}
 }

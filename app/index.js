@@ -23,6 +23,13 @@ var validate = {
 };
 
 
+var extractKeywords = function (string) {
+  return string.split(',')
+    .map(Function.call.bind(''.trim))
+    .filter(Boolean);
+};
+
+
 // source name -> destination name
 var destination = function (filename) {
   return filename.replace(/^_/, '.');
@@ -42,6 +49,12 @@ module.exports = Generator.extend({
         type: 'input',
         name: 'description',
         message: 'Description'
+      },
+      {
+        type: 'input',
+        name: 'keywords',
+        message: 'Keywords',
+        filter: extractKeywords
       },
       {
         type: 'input',
