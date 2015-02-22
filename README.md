@@ -1,6 +1,6 @@
 # generator-node
 
-This is my custom Node projects generator.
+This is my custom generator for Node projects.
 
 ## Usage
 
