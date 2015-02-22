@@ -15,7 +15,7 @@ var validate = {
     return true;
   },
   year: function (year) {
-    if (year === +year) {
+    if (year != +year || year <= 0) {
       return 'invalid';
     }
     return true;
