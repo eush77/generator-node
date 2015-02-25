@@ -4,7 +4,7 @@
 
 <% if (travis) { %>[![Build Status][travis-badge]][travis] <% } %>[![Dependency Status][david-badge]][david]
 
-<%= description %>
+<%= /[.!?]$/.test(description) ? description : description + '.' %>
 
 <% if (travis) { %>[travis]: https://travis-ci.org/eush77/<%= name %>
 [travis-badge]: https://travis-ci.org/eush77/<%= name %>.svg
