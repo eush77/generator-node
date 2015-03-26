@@ -4,7 +4,11 @@
   "description": "<%= description %>",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
-  <% if (test) { %>"scripts": {
+  <% if (global) { %>"preferGlobal": true,
+  "bin": {
+    "<%= name %>": "cli.js"
+  },
+  <% } if (test) { %>"scripts": {
     "test": "<%= test %>"
   },
   <% } %>"homepage": "https://github.com/eush77/<%= name %>",
