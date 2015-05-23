@@ -1,6 +1,6 @@
 {
   "name": "generator-node",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "My custom Node generator",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "private": true,
