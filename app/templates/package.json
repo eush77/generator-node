@@ -11,7 +11,10 @@
   <% } if (test) { %>"scripts": {
     "test": "<%= test %>"
   },
-  <% } %>"homepage": "https://github.com/eush77/<%= name %>",
+  <% } %>"files": [
+    <% if (global) { %>"cli.js"<% } else { %>"index.js"<% } %>,
+  ],
+  "homepage": "https://github.com/eush77/<%= name %>",
   "repository": {
     "type": "git",
     "url": "https://github.com/eush77/<%= name %>"
