@@ -22,6 +22,19 @@ This will silently create minimal `package.json` to write scripts and accumulate
 npm install -g eush77/generator-node
 ```
 
+or from a scoped package
+
+```
+npm install -g @eush77/generator-node
+```
+
+Note that if you install it as a scoped package, you will need to specify its scope explicitly:
+
+```
+yo @eush77/node
+yo @eush77/node:bare
+```
+
 ## License
 
 MIT

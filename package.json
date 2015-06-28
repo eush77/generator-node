@@ -1,9 +1,8 @@
 {
-  "name": "generator-node",
+  "name": "@eush77/generator-node",
   "version": "0.4.3",
   "description": "My custom Node generator",
   "author": "Eugene Sharygin <eush77@gmail.com>",
-  "private": true,
   "license": "MIT",
   "preferGlobal": true,
   "homepage": "https://github.com/eush77/generator-node",
