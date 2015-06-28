@@ -1,4 +1,4 @@
-[![npm](https://nodei.co/npm/<%= name %>.png)](https://nodei.co/npm/<%= name %>/)
+[![npm](https://nodei.co/npm/<%= name %>.png)](https://npmjs.com/package/<%= name %>)
 
 # <%= name %>
 
