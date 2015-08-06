@@ -28,7 +28,8 @@ var validate = {
 var extractKeywords = function (string) {
   return string.split(',')
     .map(Function.call.bind(''.trim))
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort();
 };
 
 
