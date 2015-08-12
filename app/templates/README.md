@@ -7,7 +7,7 @@
 <%= /[.!?]$/.test(description) ? description : description + '.' %>
 
 <% if (travis) { %>[travis]: https://travis-ci.org/eush77/<%= name %>
-[travis-badge]: https://travis-ci.org/eush77/<%= name %>.svg
+[travis-badge]: https://travis-ci.org/eush77/<%= name %>.svg?branch=master
 <% } %>[david]: https://david-dm.org/eush77/<%= name %>
 [david-badge]: https://david-dm.org/eush77/<%= name %>.png
 
