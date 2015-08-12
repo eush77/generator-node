@@ -12,7 +12,8 @@
     "test": "<%= test %>"
   },
   <% } %>"files": [
-    <% if (global) { %>"cli.js"<% } else { %>"index.js"<% } %>
+    <% if (global) { %>"cli.js",
+    <% } %>"index.js"
   ],
   "homepage": "https://github.com/eush77/<%= name %>",
   "repository": "eush77/<%= name %>",
