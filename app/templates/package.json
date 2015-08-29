@@ -5,9 +5,7 @@
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
   <% if (global) { %>"preferGlobal": true,
-  "bin": {
-    "<%= name %>": "cli.js"
-  },
+  "bin": "cli.js",
   <% } if (test) { %>"scripts": {
     "test": "<%= test %>"
   },
