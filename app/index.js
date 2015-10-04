@@ -69,8 +69,8 @@ module.exports = Generator.extend({
       },
       {
         type: 'confirm',
-        name: 'global',
-        message: 'Make this module global',
+        name: 'bin',
+        message: 'Make CLI',
         default: false
       },
       {

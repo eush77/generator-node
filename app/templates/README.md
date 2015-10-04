@@ -14,7 +14,7 @@
 ## Install
 
 ```
-npm install <% if (global) { %>-g <% } %><%= name %>
+npm install <%= name %>
 ```
 
 ## License
